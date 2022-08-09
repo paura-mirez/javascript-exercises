@@ -3,17 +3,17 @@
 
 const repeatString = function(str, number) {
 
-    let result = ""
+    let result = "";
     
     if (number>=0) {
         for (let i=0; i<number; i++) {
-            result += str
+            result += str;
         }
     
-        return result
+        return result;
     }
     else {
-        return "ERROR"
+        return "ERROR";
     }
 };
 
